@@ -14,7 +14,6 @@
     <nav class="w-[90%] m-auto mt-2 rounded-xl sm:sticky top-0 bg-[rgba(255,255,255,0.2)]">
         <div class="text-center [&>a]:mx-[2%] mt-4 py-1 [&>a]:text-lg [&>a]:font-semibold">
             <a class="hover:text-lime-500 transition duration-200" href="#home">Home</a>
-            <a class="hover:text-lime-500 transition duration-200" href="#about">About</a>
             <a class="hover:text-lime-500 transition duration-200" href="#skills">Skills</a>
             <a class="hover:text-lime-500 transition duration-200" href="#ec">Activities</a>
             <a class="hover:text-lime-500 transition duration-200" href="#achievments">Achievments</a>
@@ -170,12 +169,41 @@
 
     <div id="project" class="border-2 w-[90%] mt-4 m-auto p-2 rounded-xl">
         <h1 class=" text-fuchsia-300 font-semibold text-lg "><u>Projects</u></h1>
+        <div class="flex flex-wrap sm:flex-row flex-col justify-center items-center gap-2 overflow-auto p-1
+        [&>div]:w-[300px]
+        [&>div]:h-48
+        [&>div]:bg-gradient-to-tr
+        [&>div]:from-lime-400
+        [&>div]:to-slate-500
+        [&>div]:rounded-md
+        [&>div]:flex-none
+        [&>div]:p-2
+        [&>div]:text-center
+        ">
+            <div>
+                <img class="align-middle mx-auto" src="je.png" alt="Journal Engine">
+                <p>A web based System for research papers calling, submitting, reviewing, publishing and reading. Also have a connect platform for setting connection between researchers worldwide.</p>
+            </div>
+            <div>
+                <img class="mx-auto w-20" src="scc.png" alt="Sylhet Cycling Community">
+                <p class="pt-1">A website for <span class="text-sky-200" >Sylhet Cycling Community.</span> Where member can share anything and admins can handle events, registration, finance, users, reports etc.</p>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold text-lime-300">Child E-Book</h1>
+                <p>A pc software for teaching children their first lesson like: numbers, Alphabets, Words etc. with audio.</p>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold text-lime-300">Search File</h1>
+                <p>Can be used for searching file from an entire system with matching name. Also can shutdown & restart the system (As an extra feature).</p>
+            </div>
+        </div>
+        <p class="text-center text-lg font-mono">More Projects are available on my <a class="text-blue-400 hover:text-blue-300 m-2" href="https://github.com/rashidshafe" target="_blank">Github.</a></p>
     </div>
 
     <div id="ec" class="border-2 w-[90%] mt-4 m-auto p-2 rounded-xl">
         <h1 class=" text-fuchsia-300 font-semibold text-lg "><u>Activities</u></h1>
         <div>
-            <ol class="list-disc list-inside">
+            <ol class="ml-6 list-disc list-outside">
                 <li>Vice president at <span class="text-blue-200">NEUB CSE Society.</span> (2022-Present)</li>
                 <li>300+ Programming problem solved.</li>
                 <li>15+ rooms solved in <span class="text-blue-200">Tryhackme.</span></li>
@@ -185,10 +213,11 @@
             </ol>
         </div>
     </div>
+
     <div id="achievments" class="border-2 w-[90%] mt-4 m-auto p-2 rounded-xl">
         <h1 class=" text-fuchsia-300 font-semibold text-lg "><u>Achievments</u></h1>
         <div>
-            <ol class="list-disc list-inside">
+            <ol class="ml-6 list-disc list-outside">
                 <li>Completion of IEEE "Cybersecurity CTFBoot-Camp 2021".</li>
                 <li>Bdapps Sylhet Champ (3rd position) of June 2022.</li>
                 <li>
